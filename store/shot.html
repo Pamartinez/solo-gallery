@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Store Shot</title>
+<style>
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; }
+  body {
+    font-family: "Segoe UI", Roboto, system-ui, sans-serif; color: #fff;
+    display: flex; flex-direction: column; align-items: center; text-align: center;
+  }
+  body.photos { background: radial-gradient(120% 80% at 50% 0%, #4fa0ff 0%, #0262d6 55%, #01204a 100%); }
+  body.videos { background: radial-gradient(120% 80% at 50% 0%, #5a5cff 0%, #1b2f8f 55%, #070b26 100%); }
+  h1 { font-size: 104px; line-height: 1.05; margin: 150px 60px 0; letter-spacing: -0.02em; font-weight: 800; }
+  p { font-size: 44px; line-height: 1.3; margin: 32px 90px 0; opacity: .88; }
+  .phone { width: 760px; margin-top: 90px; filter: drop-shadow(0 40px 60px rgba(0,0,0,.45)); }
+  .badge { margin-top: 120px; width: 340px; height: 340px; filter: drop-shadow(0 30px 50px rgba(0,0,0,.35)); }
+  .chips { display: flex; flex-direction: column; gap: 28px; margin-top: 90px; }
+  .chip { font-size: 48px; font-weight: 700; background: rgba(255,255,255,.14); border-radius: 999px; padding: 26px 64px; }
+</style>
+</head>
+<body>
+<script>
+  // Params: app=photos|videos, h=headline, p=subline, img=phone svg path, or privacy=1 for the icon + chips layout.
+  var q = new URLSearchParams(location.search);
+  var app = q.get("app");
+  document.body.className = app;
+  var html = "<h1>" + q.get("h") + "</h1><p>" + q.get("p") + "</p>";
+  if (q.get("privacy")) {
+    html += '<img class="badge" src="../assets/icon-' + app + '.svg" alt="">' +
+      '<div class="chips">' + ["No ads", "No accounts", "No data collected", "Works offline"]
+        .map(function (c) { return '<span class="chip">' + c + "</span>"; }).join("") + "</div>";
+  } else {
+    html += '<img class="phone" src="../assets/' + q.get("img") + '" alt="">';
+  }
+  document.body.innerHTML = html;
+</script>
+</body>
+</html>

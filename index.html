@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solo Gallery</title>
+  <meta name="description" content="Solo Photos and Solo Videos: private, offline Android galleries that show just one kind of media.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+  <script src="assets/features.js" defer></script>
+</head>
+<body data-root="">
+  <main class="wrap">
+    <section class="hero">
+      <h1>One gallery.<br>One kind of media.</h1>
+      <p>Solo Photos shows only your pictures. Solo Videos shows only your videos. Both are fast, private, and work completely offline.</p>
+      <div class="chips">
+        <span class="chip">No ads</span>
+        <span class="chip">No accounts</span>
+        <span class="chip">No data collected</span>
+        <span class="chip">Works offline</span>
+      </div>
+    </section>
+
+    <section class="apps" aria-label="Apps">
+      <article class="card app-card">
+        <div class="app-head">
+          <img src="assets/icon-photos.svg" alt="">
+          <div><h2>Solo Photos</h2><p>A gallery for images only</p></div>
+        </div>
+        <img class="mock" src="assets/mock-photos.svg" alt="Illustration of the Solo Photos album grid">
+        <div class="app-links">
+          <a class="btn" aria-disabled="true" href="#">Google Play &middot; coming soon</a>
+          <a href="photos/privacy.html">Privacy policy</a>
+        </div>
+      </article>
+
+      <article class="card app-card">
+        <div class="app-head">
+          <img src="assets/icon-videos.svg" alt="">
+          <div><h2>Solo Videos</h2><p>A gallery for videos only</p></div>
+        </div>
+        <img class="mock" src="assets/mock-videos.svg" alt="Illustration of the Solo Videos grid">
+        <div class="app-links">
+          <a class="btn" aria-disabled="true" href="#">Google Play &middot; coming soon</a>
+          <a href="videos/privacy.html">Privacy policy</a>
+        </div>
+      </article>
+    </section>
+
+    <h2 class="section-title">Everything stays on your phone</h2>
+    <section class="features">
+      <div class="card feature" role="button" tabindex="0">
+        <span class="ico">🗂️</span><h3>Albums and groups</h3><p>Browse folders in a grid or list, and gather albums into nested groups.</p><span class="learn">Learn more &rarr;</span>
+        <ul class="more" hidden>
+          <li>Every folder of photos or videos on your phone shows up as an album.</li>
+          <li>Tap <b>+</b> to create a group, then add albums to it. Groups can hold other groups too.</li>
+          <li>A group's tile shows a 2×2 preview of the albums inside.</li>
+          <li>Switch between large tiles, small tiles and a list.</li>
+        </ul>
+      </div>
+      <div class="card feature" role="button" tabindex="0">
+        <span class="ico">↕️</span><h3>Your order</h3><p>Sort each view on its own, or drag items into exactly the order you want.</p><span class="learn">Learn more &rarr;</span>
+        <ul class="more" hidden>
+          <li>Sort by name, date or size, or pick <b>Custom</b> and long-press to drag items into place.</li>
+          <li>Each album and group can remember its own sort order and grid size.</li>
+          <li>Groups can stay pinned on top of your albums.</li>
+          <li>Changed your mind? Restore the custom order back to A–Z in one tap.</li>
+        </ul>
+      </div>
+      <div class="card feature" role="button" tabindex="0">
+        <span class="ico">📁</span><h3>Real file tools</h3><p>Copy, move, rename and delete, with clear choices when names clash.</p><span class="learn">Learn more &rarr;</span>
+        <ul class="more" hidden>
+          <li>Select one item or many, then copy or move them to any album, or straight into a new one.</li>
+          <li>A progress window shows how far along it is, and you can cancel.</li>
+          <li>If a file with the same name already exists, choose <b>Skip</b>, <b>Replace</b> or <b>Rename</b>, and apply that choice to all of them.</li>
+          <li>Rename albums and delete items with a clear confirmation first.</li>
+        </ul>
+      </div>
+      <div class="card feature" role="button" tabindex="0">
+        <span class="ico">🙈</span><h3>Hide folders</h3><p>Keep screenshots, downloads and other clutter out of sight.</p><span class="learn">Learn more &rarr;</span>
+        <ul class="more" hidden>
+          <li>Open the <b>⋮</b> menu and choose <b>Hide album(s)</b>.</li>
+          <li>Switch off any folder you don't want to see in the gallery.</li>
+          <li>Your files aren't moved or deleted, only hidden from view. Unhide them any time.</li>
+        </ul>
+      </div>
+      <div class="card feature" role="button" tabindex="0">
+        <span class="ico">🔌</span><h3>USB drives</h3><p>Open photos and videos stored on a connected USB drive.</p><span class="learn">Learn more &rarr;</span>
+        <ul class="more" hidden>
+          <li>Plug in a USB drive and pick it once in Android's file picker.</li>
+          <li>The app only gets access to the drive you choose.</li>
+          <li>Its albums appear in the gallery and come back automatically when you reconnect the drive.</li>
+        </ul>
+      </div>
+      <div class="card feature" role="button" tabindex="0">
+        <span class="ico">💾</span><h3>Backup and restore</h3><p>Save your settings, groups and custom order to a file on your device.</p><span class="learn">Learn more &rarr;</span>
+        <ul class="more" hidden>
+          <li>A backup saves your settings, groups, hidden folders and custom order. Your photos and videos are not included.</li>
+          <li>Turn on <b>Auto backup</b> to keep it up to date as you make changes.</li>
+          <li>Moving to a new phone? Copy the backup file over and tap <b>Restore</b>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <dialog class="feature-dialog" aria-labelledby="fd-title">
+      <form method="dialog"><button class="fd-close" aria-label="Close">&times;</button></form>
+      <span class="ico" id="fd-ico"></span>
+      <h3 id="fd-title"></h3>
+      <ul id="fd-list"></ul>
+    </dialog>
+
+    <section class="card showcase">
+      <div class="showcase-text">
+        <h2>Make it yours</h2>
+        <p>Give every album its own sort order and grid size, drag items into place, and use a floating top bar like Samsung Gallery. Solo Photos lets you tune the photo viewer, and Solo Videos builds folder previews in the background so browsing stays fast.</p>
+      </div>
+      <img class="mock" src="assets/mock-photos-settings.svg" alt="Solo Photos settings screen">
+      <img class="mock" src="assets/mock-videos-settings.svg" alt="Solo Videos settings screen">
+    </section>
+  </main>
+</body>
+</html>

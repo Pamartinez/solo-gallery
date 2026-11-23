@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 520" role="img" aria-label="Solo Videos albums screen on an Android phone">
+  <defs>
+    <clipPath id="tileClip"><rect width="72" height="97" rx="7"/></clipPath>
+    <clipPath id="screen"><rect x="8" y="8" width="244" height="504" rx="24"/></clipPath>
+    <clipPath id="groupTile"><rect x="14" y="139" width="72" height="97" rx="7"/></clipPath>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".65"/></linearGradient>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9a5a"/><stop offset="1" stop-color="#7b2d6b"/></linearGradient>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd3ff"/><stop offset="1" stop-color="#0b5aa6"/></linearGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2f6b"/><stop offset="1" stop-color="#0d0f26"/></linearGradient>
+    <linearGradient id="forest" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8f0b0"/><stop offset="1" stop-color="#2e7d4f"/></linearGradient>
+    <linearGradient id="desert" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe3a3"/><stop offset="1" stop-color="#d27a3a"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b8ff"/><stop offset="1" stop-color="#5b3aa8"/></linearGradient>
+    <symbol id="mountains" viewBox="0 0 72 97"><g clip-path="url(#tileClip)"><circle cx="50" cy="28" r="9" fill="#fff" opacity=".8"/><path d="M0 97 V70 L20 48 L34 62 L48 44 L72 70 V97 Z" fill="#000" opacity=".28"/></g></symbol>
+    <symbol id="waves" viewBox="0 0 72 97"><g clip-path="url(#tileClip)"><circle cx="22" cy="26" r="8" fill="#fff" opacity=".85"/><path d="M0 62 q9 -6 18 0 t18 0 t18 0 t18 0 V97 H0 Z" fill="#fff" opacity=".35"/><path d="M0 74 q9 -6 18 0 t18 0 t18 0 t18 0 V97 H0 Z" fill="#fff" opacity=".3"/></g></symbol>
+    <symbol id="city" viewBox="0 0 72 97"><g clip-path="url(#tileClip)"><circle cx="54" cy="20" r="5" fill="#fff5c0"/><path d="M0 97 V62 H10 V50 H20 V66 H28 V40 H40 V58 H48 V46 H60 V64 H72 V97 Z" fill="#000" opacity=".45"/><g fill="#ffd36b" opacity=".8"><rect x="31" y="46" width="3" height="3"/><rect x="31" y="54" width="3" height="3"/><rect x="51" y="52" width="3" height="3"/><rect x="13" y="56" width="3" height="3"/></g></g></symbol>
+    <symbol id="trees" viewBox="0 0 72 97"><g clip-path="url(#tileClip)"><path d="M14 80 L24 50 L34 80 Z M36 82 L48 42 L60 82 Z" fill="#1d5e3a" opacity=".8"/><rect x="0" y="80" width="72" height="17" fill="#000" opacity=".2"/></g></symbol>
+    <symbol id="dunes" viewBox="0 0 72 97"><g clip-path="url(#tileClip)"><circle cx="20" cy="30" r="10" fill="#fff" opacity=".7"/><path d="M0 97 V72 Q24 56 46 70 T72 66 V97 Z" fill="#a24f1f" opacity=".45"/></g></symbol>
+    <symbol id="stage" viewBox="0 0 72 97"><g clip-path="url(#tileClip)"><path d="M12 0 L30 70 L0 70 Z M60 0 L72 70 L42 70 Z" fill="#fff" opacity=".18"/><path d="M0 97 V80 Q12 72 24 80 Q36 72 48 80 Q60 72 72 80 V97 Z" fill="#000" opacity=".45"/></g></symbol>
+  </defs>
+
+  <rect x="1" y="1" width="258" height="518" rx="30" fill="#3a3a3c"/>
+  <rect x="3" y="3" width="254" height="514" rx="28" fill="#111"/>
+
+  <g clip-path="url(#screen)" font-family="Roboto, system-ui, sans-serif">
+    <rect x="8" y="8" width="244" height="504" fill="#000"/>
+
+    <g fill="#fafafa" font-size="10.5" font-weight="600">
+      <text x="22" y="28">12:30</text>
+      <path d="M196 27 a9 9 0 0 1 12 0 l-6 6 z"/>
+      <path d="M212 32 L220 22 V32 Z"/>
+      <rect x="225" y="21" width="16" height="9" rx="2" fill="none" stroke="#fafafa" stroke-width="1.4"/>
+      <rect x="227" y="23" width="10" height="5" rx="1"/>
+      <rect x="241.5" y="24" width="1.6" height="3" rx=".8"/>
+    </g>
+    <circle cx="130" cy="24" r="5.5" fill="#000" stroke="#1f1f1f" stroke-width="1"/>
+
+    <text x="18" y="62" font-size="14" font-weight="700" fill="#fafafa">VIDEO</text>
+    <g stroke="#fafafa" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <path d="M170 57 h10 M175 52 v10"/>
+      <rect x="192" y="52" width="4" height="4"/><rect x="199" y="52" width="4" height="4"/><rect x="192" y="59" width="4" height="4"/><rect x="199" y="59" width="4" height="4"/>
+    </g>
+    <g fill="#fafafa"><circle cx="226" cy="52" r="1.3"/><circle cx="226" cy="57" r="1.3"/><circle cx="226" cy="62" r="1.3"/></g>
+
+    <g font-size="9" font-weight="600" text-anchor="middle" letter-spacing=".04em">
+      <text x="69" y="98" fill="#999">VIDEOS</text>
+      <text x="191" y="98" fill="#fafafa">FOLDERS</text>
+    </g>
+    <rect x="8" y="108" width="122" height="1" fill="#2d2d2d"/>
+    <rect x="130" y="107" width="122" height="2" fill="#3e91ff"/>
+
+    <text x="14" y="127" font-size="10" font-weight="700" fill="#fafafa">All albums</text>
+
+    <g font-size="6.6" text-anchor="middle">
+      <g clip-path="url(#groupTile)">
+        <rect x="14" y="139" width="35.5" height="48" fill="url(#ocean)"/><use href="#waves" x="14" y="139" width="35.5" height="48"/>
+        <rect x="50.5" y="139" width="35.5" height="48" fill="url(#sunset)"/><use href="#dunes" x="50.5" y="139" width="35.5" height="48"/>
+        <rect x="14" y="188" width="35.5" height="48" fill="url(#forest)"/><use href="#trees" x="14" y="188" width="35.5" height="48"/>
+        <rect x="50.5" y="188" width="35.5" height="48" fill="url(#desert)"/><use href="#mountains" x="50.5" y="188" width="35.5" height="48"/>
+        <rect x="14" y="139" width="72" height="97" fill="url(#shade)"/>
+      </g>
+      <text x="50" y="223" fill="#fff" font-weight="600">Vacations</text><text x="50" y="231" fill="#bbb">4 albums</text>
+      <g>
+        <rect x="94" y="139" width="72" height="97" rx="7" fill="url(#sunset)"/><use href="#mountains" x="94" y="139" width="72" height="97"/>
+        <rect x="94" y="139" width="72" height="97" rx="7" fill="url(#shade)"/>
+        <text x="130" y="223" fill="#fff" font-weight="600">Travel</text><text x="130" y="231" fill="#bbb">46</text>
+      </g>
+      <g>
+        <rect x="174" y="139" width="72" height="97" rx="7" fill="url(#night)"/><use href="#city" x="174" y="139" width="72" height="97"/>
+        <rect x="174" y="139" width="72" height="97" rx="7" fill="url(#shade)"/>
+        <text x="210" y="223" fill="#fff" font-weight="600">City nights</text><text x="210" y="231" fill="#bbb">19</text>
+      </g>
+
+      <g>
+        <rect x="14" y="243" width="72" height="97" rx="7" fill="url(#forest)"/><use href="#trees" x="14" y="243" width="72" height="97"/>
+        <rect x="14" y="243" width="72" height="97" rx="7" fill="url(#shade)"/>
+        <text x="50" y="327" fill="#fff" font-weight="600">Hiking</text><text x="50" y="335" fill="#bbb">25</text>
+      </g>
+      <g>
+        <rect x="94" y="243" width="72" height="97" rx="7" fill="url(#violet)"/><use href="#stage" x="94" y="243" width="72" height="97"/>
+        <rect x="94" y="243" width="72" height="97" rx="7" fill="url(#shade)"/>
+        <text x="130" y="327" fill="#fff" font-weight="600">Concerts</text><text x="130" y="335" fill="#bbb">12</text>
+      </g>
+      <g>
+        <rect x="174" y="243" width="72" height="97" rx="7" fill="url(#desert)"/><use href="#dunes" x="174" y="243" width="72" height="97"/>
+        <rect x="174" y="243" width="72" height="97" rx="7" fill="url(#shade)"/>
+        <text x="210" y="327" fill="#fff" font-weight="600">Road trip</text><text x="210" y="335" fill="#bbb">33</text>
+      </g>
+
+      <g>
+        <rect x="14" y="347" width="72" height="97" rx="7" fill="url(#sunset)"/><use href="#dunes" x="14" y="347" width="72" height="97"/>
+        <rect x="14" y="347" width="72" height="97" rx="7" fill="url(#shade)"/>
+        <text x="50" y="431" fill="#fff" font-weight="600">Family</text><text x="50" y="439" fill="#bbb">38</text>
+      </g>
+      <g>
+        <rect x="94" y="347" width="72" height="97" rx="7" fill="url(#ocean)"/><use href="#mountains" x="94" y="347" width="72" height="97"/>
+        <rect x="94" y="347" width="72" height="97" rx="7" fill="url(#shade)"/>
+        <text x="130" y="431" fill="#fff" font-weight="600">Movies</text><text x="130" y="439" fill="#bbb">2</text>
+      </g>
+      <g>
+        <rect x="174" y="347" width="72" height="97" rx="7" fill="url(#forest)"/><use href="#waves" x="174" y="347" width="72" height="97"/>
+        <rect x="174" y="347" width="72" height="97" rx="7" fill="url(#shade)"/>
+        <text x="210" y="431" fill="#fff" font-weight="600">Camera</text><text x="210" y="439" fill="#bbb">81</text>
+      </g>
+
+      <rect x="14" y="451" width="72" height="97" rx="7" fill="url(#night)"/><use href="#city" x="14" y="451" width="72" height="97"/>
+      <rect x="94" y="451" width="72" height="97" rx="7" fill="url(#violet)"/><use href="#mountains" x="94" y="451" width="72" height="97"/>
+    </g>
+
+    <rect x="8" y="480" width="244" height="32" fill="#000" opacity=".55"/>
+    <g stroke="#e0e0e0" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M72 490 v10 M77 490 v10 M82 490 v10"/>
+      <rect x="123" y="488" width="14" height="14" rx="4"/>
+      <path d="M190 488 l-7 7 l7 7"/>
+    </g>
+  </g>
+</svg>

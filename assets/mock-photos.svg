@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 520" role="img" aria-label="Solo Photos albums screen on an Android phone">
+  <defs>
+    <clipPath id="tileClip"><rect width="72" height="92" rx="7"/></clipPath>
+    <clipPath id="screen"><rect x="8" y="8" width="244" height="504" rx="24"/></clipPath>
+    <clipPath id="groupTile"><rect x="14" y="105" width="72" height="92" rx="7"/></clipPath>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".65"/></linearGradient>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9a5a"/><stop offset="1" stop-color="#7b2d6b"/></linearGradient>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd3ff"/><stop offset="1" stop-color="#0b5aa6"/></linearGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2f6b"/><stop offset="1" stop-color="#0d0f26"/></linearGradient>
+    <linearGradient id="forest" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8f0b0"/><stop offset="1" stop-color="#2e7d4f"/></linearGradient>
+    <linearGradient id="desert" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe3a3"/><stop offset="1" stop-color="#d27a3a"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b8ff"/><stop offset="1" stop-color="#5b3aa8"/></linearGradient>
+    <symbol id="mountains" viewBox="0 0 72 92"><g clip-path="url(#tileClip)"><circle cx="50" cy="26" r="9" fill="#fff" opacity=".8"/><path d="M0 92 V66 L20 45 L34 58 L48 41 L72 66 V92 Z" fill="#000" opacity=".28"/></g></symbol>
+    <symbol id="lake" viewBox="0 0 72 92"><g clip-path="url(#tileClip)"><path d="M0 50 L14 30 L24 44 L40 22 L58 46 L72 36 V56 H0 Z" fill="#1d5e3a" opacity=".75"/><rect x="0" y="56" width="72" height="36" fill="#0b5aa6" opacity=".55"/></g></symbol>
+    <symbol id="city" viewBox="0 0 72 92"><g clip-path="url(#tileClip)"><circle cx="54" cy="18" r="5" fill="#fff5c0"/><path d="M0 92 V58 H10 V46 H20 V62 H28 V36 H40 V54 H48 V42 H60 V60 H72 V92 Z" fill="#000" opacity=".45"/></g></symbol>
+    <symbol id="trees" viewBox="0 0 72 92"><g clip-path="url(#tileClip)"><path d="M14 76 L24 46 L34 76 Z M36 78 L48 38 L60 78 Z" fill="#1d5e3a" opacity=".8"/><rect x="0" y="76" width="72" height="16" fill="#000" opacity=".2"/></g></symbol>
+    <symbol id="dunes" viewBox="0 0 72 92"><g clip-path="url(#tileClip)"><circle cx="20" cy="28" r="10" fill="#fff" opacity=".7"/><path d="M0 92 V68 Q24 52 46 66 T72 62 V92 Z" fill="#a24f1f" opacity=".45"/></g></symbol>
+    <symbol id="flower" viewBox="0 0 72 92"><g clip-path="url(#tileClip)"><g fill="#fff" opacity=".85"><circle cx="36" cy="34" r="7"/><circle cx="36" cy="54" r="7"/><circle cx="26" cy="44" r="7"/><circle cx="46" cy="44" r="7"/></g><circle cx="36" cy="44" r="5" fill="#ffd54f"/><rect x="35" y="52" width="2" height="16" fill="#1d5e3a"/></g></symbol>
+  </defs>
+
+  <rect x="1" y="1" width="258" height="518" rx="30" fill="#3a3a3c"/>
+  <rect x="3" y="3" width="254" height="514" rx="28" fill="#111"/>
+
+  <g clip-path="url(#screen)" font-family="Roboto, system-ui, sans-serif">
+    <rect x="8" y="8" width="244" height="504" fill="#000"/>
+
+    <g fill="#fafafa" font-size="10.5" font-weight="600">
+      <text x="22" y="28">12:30</text>
+      <path d="M196 27 a9 9 0 0 1 12 0 l-6 6 z"/>
+      <path d="M212 32 L220 22 V32 Z"/>
+      <rect x="225" y="21" width="16" height="9" rx="2" fill="none" stroke="#fafafa" stroke-width="1.4"/>
+      <rect x="227" y="23" width="10" height="5" rx="1"/>
+      <rect x="241.5" y="24" width="1.6" height="3" rx=".8"/>
+    </g>
+    <circle cx="130" cy="24" r="5.5" fill="#000" stroke="#1f1f1f" stroke-width="1"/>
+
+    <g stroke="#fafafa" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <path d="M170 55 h10 M175 50 v10"/>
+      <rect x="192" y="50" width="4" height="4"/><rect x="199" y="50" width="4" height="4"/><rect x="192" y="57" width="4" height="4"/><rect x="199" y="57" width="4" height="4"/>
+    </g>
+    <g fill="#fafafa"><circle cx="226" cy="50" r="1.3"/><circle cx="226" cy="55" r="1.3"/><circle cx="226" cy="60" r="1.3"/></g>
+
+    <text x="14" y="93" font-size="10" font-weight="700" fill="#fafafa">All albums</text>
+
+    <g font-size="6.6" text-anchor="middle">
+      <g clip-path="url(#groupTile)">
+        <rect x="14" y="105" width="35.5" height="45.5" fill="url(#ocean)"/><use href="#lake" x="14" y="105" width="35.5" height="45.5"/>
+        <rect x="50.5" y="105" width="35.5" height="45.5" fill="url(#sunset)"/><use href="#dunes" x="50.5" y="105" width="35.5" height="45.5"/>
+        <rect x="14" y="151.5" width="35.5" height="45.5" fill="url(#forest)"/><use href="#trees" x="14" y="151.5" width="35.5" height="45.5"/>
+        <rect x="50.5" y="151.5" width="35.5" height="45.5" fill="url(#desert)"/><use href="#mountains" x="50.5" y="151.5" width="35.5" height="45.5"/>
+        <rect x="14" y="105" width="72" height="92" fill="url(#shade)"/>
+      </g>
+      <text x="50" y="184" fill="#fff" font-weight="600">Vacations</text><text x="50" y="192" fill="#bbb">4 albums</text>
+
+      <rect x="94" y="105" width="72" height="92" rx="7" fill="url(#forest)"/><use href="#flower" x="94" y="105" width="72" height="92"/>
+      <rect x="94" y="105" width="72" height="92" rx="7" fill="url(#shade)"/>
+      <text x="130" y="184" fill="#fff" font-weight="600">Garden</text><text x="130" y="192" fill="#bbb">64</text>
+
+      <rect x="174" y="105" width="72" height="92" rx="7" fill="url(#night)"/><use href="#city" x="174" y="105" width="72" height="92"/>
+      <rect x="174" y="105" width="72" height="92" rx="7" fill="url(#shade)"/>
+      <text x="210" y="184" fill="#fff" font-weight="600">City nights</text><text x="210" y="192" fill="#bbb">116</text>
+
+      <rect x="14" y="204" width="72" height="92" rx="7" fill="url(#sunset)"/><use href="#mountains" x="14" y="204" width="72" height="92"/>
+      <rect x="14" y="204" width="72" height="92" rx="7" fill="url(#shade)"/>
+      <text x="50" y="283" fill="#fff" font-weight="600">Family</text><text x="50" y="291" fill="#bbb">339</text>
+
+      <rect x="94" y="204" width="72" height="92" rx="7" fill="url(#ocean)"/><use href="#lake" x="94" y="204" width="72" height="92"/>
+      <rect x="94" y="204" width="72" height="92" rx="7" fill="url(#shade)"/>
+      <text x="130" y="283" fill="#fff" font-weight="600">Camera</text><text x="130" y="291" fill="#bbb">1,280</text>
+
+      <rect x="174" y="204" width="72" height="92" rx="7" fill="url(#violet)"/><use href="#flower" x="174" y="204" width="72" height="92"/>
+      <rect x="174" y="204" width="72" height="92" rx="7" fill="url(#shade)"/>
+      <text x="210" y="283" fill="#fff" font-weight="600">Pets</text><text x="210" y="291" fill="#bbb">52</text>
+
+      <rect x="14" y="303" width="72" height="92" rx="7" fill="url(#ocean)"/><use href="#trees" x="14" y="303" width="72" height="92"/>
+      <rect x="14" y="303" width="72" height="92" rx="7" fill="url(#shade)"/>
+      <text x="50" y="382" fill="#fff" font-weight="600">Colorado</text><text x="50" y="390" fill="#bbb">84</text>
+
+      <rect x="94" y="303" width="72" height="92" rx="7" fill="url(#desert)"/><use href="#dunes" x="94" y="303" width="72" height="92"/>
+      <rect x="94" y="303" width="72" height="92" rx="7" fill="url(#shade)"/>
+      <text x="130" y="382" fill="#fff" font-weight="600">Road trip</text><text x="130" y="390" fill="#bbb">47</text>
+
+      <rect x="174" y="303" width="72" height="92" rx="7" fill="url(#forest)"/><use href="#mountains" x="174" y="303" width="72" height="92"/>
+      <rect x="174" y="303" width="72" height="92" rx="7" fill="url(#shade)"/>
+      <text x="210" y="382" fill="#fff" font-weight="600">Expert RAW</text><text x="210" y="390" fill="#bbb">35</text>
+
+      <rect x="14" y="402" width="72" height="92" rx="7" fill="url(#violet)"/><use href="#city" x="14" y="402" width="72" height="92"/>
+      <rect x="94" y="402" width="72" height="92" rx="7" fill="url(#night)"/><use href="#mountains" x="94" y="402" width="72" height="92"/>
+      <rect x="174" y="402" width="72" height="92" rx="7" fill="url(#sunset)"/><use href="#lake" x="174" y="402" width="72" height="92"/>
+    </g>
+
+    <rect x="8" y="480" width="244" height="32" fill="#000" opacity=".55"/>
+    <g stroke="#e0e0e0" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M72 490 v10 M77 490 v10 M82 490 v10"/>
+      <rect x="123" y="488" width="14" height="14" rx="4"/>
+      <path d="M190 488 l-7 7 l7 7"/>
+    </g>
+  </g>
+</svg>
