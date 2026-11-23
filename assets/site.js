@@ -21,7 +21,7 @@
   footer.className = "site-footer";
   footer.innerHTML =
     '<div class="wrap">' +
-    "<span>&copy; " + new Date().getFullYear() + " Pablo Martinez</span>" +
+    "<span>&copy; " + new Date().getFullYear() + " Solo Gallery</span>" +
     "<nav>" +
     link("photos/privacy.html", "Solo Photos privacy") +
     link("videos/privacy.html", "Solo Videos privacy") +
